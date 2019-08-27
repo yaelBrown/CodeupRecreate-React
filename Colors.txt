@@ -1,0 +1,10 @@
+Colors
+  Codeup-Green-primary: 76a54a
+  Codeup-Green-secondary: 4d5e32
+  Learn-more-btn: fec315
+  blue-bg: 171c32
+  schedule-a-call: ea583f
+  grey-bg: d7e1e1
+  red-underscore: ef634a
+  grey-bg-partners: d8e4e3
+  blue-btn-onbottom: 181d31

@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
-import navbar from './components/navbar.js';
-import rebootYourCareer from "./components/rebootYourCareer";
-import render from 'react-dom';
+import Layout from './components/Layout';
 
-const App = () => {
-  return (
-    <div>
+
+export default class App extends Component {
+  render() {
+    return (
       <navbar/>
-      <rebootYourCareer/>
-    </div>
-  );
+    );
+  };
 }
 
-export default App;
+const app = document.getElementById('app');
+
+ReactDOM.render(<Layout/>, app);
