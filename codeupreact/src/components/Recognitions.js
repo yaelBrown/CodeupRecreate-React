@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Reboot extends Component {
+export default class Recognitions extends Component {
   render() {
     return (
       <div>
-        <h1>Reboot your Career</h1>
+        <h1>Our Recognitions_</h1>
       </div>
     )
   }

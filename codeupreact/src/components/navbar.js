@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React from 'react'
 
 const Navbar = () => {
-  render = () => {
-    return (
-      <h1>This is navbar</h1>
-    )
-  }
+  return (
+    <h1>This is navbar</h1>
+  )
 }
 
 export default Navbar;
