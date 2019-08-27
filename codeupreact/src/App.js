@@ -11,7 +11,6 @@ import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
 
-
 export default class App extends Component {
   render() {
     return (
