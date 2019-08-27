@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import './App.css';
+
 import Navbar from './components/Navbar';
 import Reboot from './components/Reboot';
 import Programs from './components/Programs';
@@ -9,7 +11,7 @@ import Recognitions from './components/Recognitions';
 import Key from './components/Key';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-
+import Head from './components/Head';
 
 export default class App extends Component {
   render() {

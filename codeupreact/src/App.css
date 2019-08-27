@@ -2,7 +2,7 @@
 Colors
   Codeup-Green-primary: 76a54a
   Codeup-Green-secondary: 4d5e32
-  Learn-more-btn: fec315
+  Learn-more-btn-yellow: fec315
   blue-bg: 171c32
   schedule-a-call: ea583f
   grey-bg: d7e1e1
@@ -42,5 +42,109 @@ main, html, body {
   margin: 0px;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Titillium Web", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.serif {
+  font-family: 'Crimson Text', serif;
+}
+
 /* Page Content */ 
 
+.container ul {
+  margin: 0;
+}
+
+/* Navbar */
+
+nav {
+  height: 85px;
+  position: fixed;
+  border-bottom: 2px solid #EDEDED;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+nav > img {
+  position: relative;
+  top: 0;
+  margin-left: 4em;
+}
+
+nav > ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav > ul > li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 1.6em;
+  padding: .2em;
+  Font-family: "Titillium Web", san-serif;
+  Font-weight: 600;
+  color: #444444;
+  letter-spacing: .8px;
+  line-height: 15px;
+  cursor: pointer;
+
+}
+
+nav > ul > li:hover {
+  border-bottom: 3px solid #fec315;
+  animation: slide 0.5s forwards;
+  transition: .2s; 
+}
+
+nav > ul > li:nth-child(6) {
+  margin-right: 4em;
+  background-color: #76a54a;
+  padding: 1.2em;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Reboot your career section */
+
+.reboot {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 100vw;
+}
+
+.rebootLeftSide {
+  width: 50%;
+  display: flex; 
+  justify-content: center;
+}
+
+.rebootRightSide {
+  width: 4;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.rebootRightSide > img {
+  height: auto;
+  width: 700px;
+}

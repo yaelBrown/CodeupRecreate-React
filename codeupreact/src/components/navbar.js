@@ -1,10 +1,19 @@
 import React from 'react'
+import logo from './img/logo.png';
 
 const Navbar = () => {
   return (
-    <div>
-    <h1>This is navbar</h1>
-    </div>
+    <nav>
+      <img src={logo} alt="Codeup Navbar Brand Logo" id="brand-logo" />
+      <ul>
+        <li>Students</li>
+        <li>Employers</li>
+        <li>Blog</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Apply Now</li>
+      </ul>
+    </nav>
   )
 }
 
