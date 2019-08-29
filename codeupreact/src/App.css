@@ -1,4 +1,4 @@
-/* 
+/*
 Colors
   Codeup-Green-primary: 76a54a
   Codeup-Green-secondary: 4d5e32
@@ -60,7 +60,11 @@ code {
   font-family: 'Crimson Text', serif;
 }
 
-/* Page Content */ 
+.underscore {
+  color: #76a54a;
+}
+
+/* Page Content */
 
 .container ul {
   margin: 0;
@@ -111,7 +115,7 @@ nav > ul > li {
 nav > ul > li:hover {
   border-bottom: 3px solid #fec315;
   animation: slide 0.5s forwards;
-  transition: .2s; 
+  transition: .2s;
 }
 
 nav > ul > li:nth-child(6) {
@@ -129,19 +133,24 @@ nav > ul > li:nth-child(6) {
   flex-direction: row;
   align-content: space-between;
   width: 100vw;
+  margin-top: 85px;
 }
 
 .rebootLeftSide {
   width: 50%;
-  display: flex; 
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5em;
 }
 
 .rebootRightSide {
-  width: 4;
+  width: 700px;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  flex-grow: 0;
 }
 
 .rebootRightSide > img {
